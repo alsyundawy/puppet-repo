@@ -9,6 +9,7 @@ class repo::remi{
     failovermethod => 'priority',
     enabled => '1',
     gpgcheck => '0',
+    exclude => ['firefox* xulrunner*', ],
     require => [Yumrepo['epel'], Package['remi-release']],
   }
 }

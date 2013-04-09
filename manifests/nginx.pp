@@ -1,6 +1,7 @@
-class repo::nginx{
+class repo::nginx($dev = true){
+  if $dev { $x = '/mainline' } else {$x = ''}
   yumrepo { 'nginx-release':
-    baseurl  => 'http://nginx.org/packages/centos/6/$basearch/',
+    baseurl  => "http://nginx.org/packages$x/centos/6/\$basearch/",
     descr    => 'nginx repo',
     enabled  => '1',
     gpgcheck => '0',

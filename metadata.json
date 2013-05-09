@@ -1,0 +1,27 @@
+{
+  "name": "sandinh-repo",
+  "author": "giabao",
+  "description": "repos:\ncouchbase, epel, nginx, remi",
+  "license": "Apache 2.0",
+  "project_page": "http://sandinh.com",
+  "source": "https://github.com/giabao/puppet-repo.git",
+  "summary": "manage some centos repositories",
+  "version": "0.0.1",
+  "checksums": {
+    "Modulefile": "0d5e23268c775d331c2769542d58c5db",
+    "README.markdown": "a2cf3f64a537cb16506f63d44a94d4a8",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "files/RPM-GPG-KEY-AXIVO": "b4d9f3ca58f21ab4a71ebfe067a3ec0a",
+    "manifests/axivo.pp": "4b39ea9b78e470f284e0e5e515e91a66",
+    "manifests/cb.pp": "f83613dde50a9438427dda5331231844",
+    "manifests/epel.pp": "f9a343d038d302766152211545af5110",
+    "manifests/init.pp": "bb8d31ef7dc6f7c563029b02b6aca62e",
+    "manifests/mariadb.pp": "053c6f4759055100d241ad8c99aa68fc",
+    "manifests/nginx.pp": "85fb590d27b9cf66dadc4fb308793d64",
+    "manifests/remi.pp": "92bb56bd6c574f9dd6bb1eac50624ff5",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests/init.pp": "1065d95d4a49a09d028b031181056af9"
+  },
+  "dependencies": []
+}

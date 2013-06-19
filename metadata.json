@@ -1,12 +1,11 @@
 {
   "name": "sandinh-repo",
+  "version": "0.1.0",
+  "summary": "manage some centos repositories",
   "author": "giabao",
   "description": "repos:\ncouchbase, epel, nginx, remi",
-  "license": "Apache 2.0",
-  "project_page": "http://sandinh.com",
-  "source": "https://github.com/giabao/puppet-repo.git",
-  "summary": "manage some centos repositories",
-  "version": "0.1.0",
+  "dependencies": [],
+  "types": [],
   "checksums": {
     "Modulefile": "572e45354834f0c784e12b89f87f8e69",
     "README.markdown": "daf842943b125acb86218169726c68a4",
@@ -23,5 +22,7 @@
     "spec\\spec_helper.rb": "2553c1effba7428583143e8f908fac3a",
     "tests\\init.pp": "fb0a03d3d0468ec943332b8dba99d4aa"
   },
-  "dependencies": []
+  "source": "https://github.com/giabao/puppet-repo.git",
+  "project_page": "http://sandinh.com",
+  "license": "Apache 2.0"
 }

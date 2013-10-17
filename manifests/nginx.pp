@@ -1,5 +1,5 @@
-class repo::nginx($dev = false){
-  if $dev { $x = '/mainline' } else {$x = ''}
+class repo::nginx($dev = true){
+  if $dev == true { $x = '/mainline' } else {$x = ''}
   yumrepo { 'nginx-release':
     baseurl  => "http://nginx.org/packages$x/centos/6/\$basearch/",
     descr    => 'nginx repo',

@@ -1,6 +1,6 @@
 {
   "name": "sandinh-repo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "manage some centos repositories",
   "author": "giabao",
   "description": "repos:\ncouchbase, epel, nginx, remi",
